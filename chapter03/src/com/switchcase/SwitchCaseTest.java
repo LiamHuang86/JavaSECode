@@ -40,6 +40,9 @@ package com.switchcase;
 *   1)  switch中的表達式只能是特定的數據類型。
 *   如下: byte \ short \ char \ int \ 枚舉(JDK5.0新增) \ String(JDK7.0新增)
 *   2) case後都是跟著常量，使用表達式與這些常量做相等的判斷，不能進行範圍的判斷。
+*   3) 開發中使用switch-case時，通常case匹配的情況都有限。
+*   4) break: 可以使用在switch-case中，一旦執行此break關鍵字，就跳出當前的switch-case結構。
+*   5) default: 類似於if-else中的else結構。default是可以根據需要使用或省略的，但不同於else，它的位置是靈活的。
 * */
 public class SwitchCaseTest {
     public static void main(String[] args) {
