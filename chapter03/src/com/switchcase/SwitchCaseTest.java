@@ -80,7 +80,7 @@ public class SwitchCaseTest {
                 break;
             default:
                 System.out.println("Other");
-                break;//default 加不加break都可以
+                break;//default在最後，加不加break都可以
         } //result: One  完成選擇後，break跳出當前switch-case結構
 
         //另例: Sting
